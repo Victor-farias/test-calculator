@@ -22,6 +22,7 @@ public class MatcherTest {
         assertThat(1, Matchers.greaterThan(0));
     }
 
+    @Test
     public void givenString_checkIsNull() {
         String str = null;
         assertThat(str, Matchers.isEmptyOrNullString());
